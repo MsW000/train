@@ -4,5 +4,17 @@ Test
         ├── Dockerfile
         ├── app
         │   ├── __init__.py
+        │   ├── api
+        │   │   ├── __init__.py
+        │   │   ├── crud.py
+        │   │   ├── models.py
+        │   │   ├── notes.py
+        │   │   └── ping.py
+        │   ├── db.py
         │   └── main.py
-        └── requirements.txt
+        ├── requirements.txt
+        └── tests
+            ├── __init__.py
+            ├── conftest.py
+            ├── test_notes.py
+            └── test_ping.py
